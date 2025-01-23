@@ -2,14 +2,7 @@
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
-  FaReact,
-  FaNode,
-  FaDatabase,
-} from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode } from "react-icons/fa";
 import {
   SiTypescript,
   SiNextdotjs,
@@ -28,7 +21,7 @@ import {
   SiRedis,
 } from "react-icons/si";
 import { TbBrandSvelte } from "react-icons/tb";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
@@ -102,12 +95,12 @@ export default function Home() {
                 <p className="text-primary/80 leading-relaxed">
                   I am a passionate Full Stack Developer based in Chiang Rai,
                   Thailand. After graduating from Chiang Rai Vocational College
-                  in 2022, I've dedicated the past year to intensively
+                  in 2022, I&apos;ve dedicated the past year to intensively
                   developing my programming skills through self-study, building
                   mini projects, and taking on freelance work.
                 </p>
                 <p className="text-primary/80 leading-relaxed">
-                  During this year of hands-on experience, I've worked on
+                  During this year of hands-on experience, I&apos;ve worked on
                   various projects that have helped me gain practical knowledge
                   in both frontend and backend development. My freelance work
                   has given me valuable experience in working with clients and
